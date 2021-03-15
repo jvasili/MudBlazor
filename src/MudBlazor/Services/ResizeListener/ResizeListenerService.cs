@@ -131,10 +131,10 @@ namespace MudBlazor.Services
 
         public static Dictionary<Breakpoint, int> BreakpointDefinitions { get; set; } = new Dictionary<Breakpoint, int>()
         {
-            [Breakpoint.Xl] = 1920,
-            [Breakpoint.Lg] = 1280,
-            [Breakpoint.Md] = 960,
-            [Breakpoint.Sm] = 600,
+            [Breakpoint.Xl] = 1200, //1920,
+            [Breakpoint.Lg] = 992, //1280,
+            [Breakpoint.Md] = 768, //960,
+            [Breakpoint.Sm] = 576, //600,
             [Breakpoint.Xs] = 0,
         };
 
